@@ -1,0 +1,235 @@
+
+#container {
+	position: fixed;
+	background-image: url("city.jpg");
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	opacity: 0.9;
+	z-index: 1;
+}
+
+#main-title {
+	margin: auto;
+	font-size: 100px;
+	width: 50%;
+	color: white;
+	z-index: 2;
+	letter-spacing: 3px;
+	word-spacing: 1px;
+    font-family: "Lucida Bright", Georgia, serif;
+    background: rgba(204, 204, 204, 0.5);
+    text-align:center;
+}
+
+#categories {
+	position: relative;
+	top: 100px;
+	left: 25%;
+	display: inline-block;
+	margin: auto;
+}
+
+#more-info {
+	text-align: center;
+	color: white;
+	font-weight: 10px;
+	font-size: 20px;
+}
+
+#arrow {
+	
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	transform: translateY(-50%);
+	top: 15px;
+}
+
+#btn {
+	position: fixed;
+    left: 15%;
+}
+
+#back {
+	position: fixed;
+	left: 5px;
+}
+#icons {
+	position: fixed;
+	top: 15px;
+	right: 5px;
+}
+
+#icons img:hover {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#donate-container {
+	background-color: #ff884d;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+}
+
+#donate-panel {
+	position: fixed;
+	background: rgba(102, 102, 102, 0.9);
+	border: solid 1px #c3c3c3;
+	width: 100%;
+	height: 43%;
+	color: white;
+	font-weight: 40px;
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	display: none;
+}
+
+
+#donate-about {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 40px;
+	background: rgb(255, 220, 204, 0.7);
+}
+
+
+#city-panel {
+	position: absolute;
+	bottom: 0px;
+}
+
+b {
+	color: lightblue;
+}
+
+#deco-bar {
+	position: absolute;
+	background-color: lightblue;
+	width: 100%;
+	height: 10%;
+	top: 60%;
+}
+
+#learn {
+	position: fixed;
+	margin: 0 auto;
+	width: 100%;
+	top: 45px;
+}
+
+#top-panel {
+	background-color: black;
+	opacity: 0.7;
+    overflow-y: 10px;
+}
+
+#bottom-panel {
+	position: fixed;
+	background-color: #ff8000;
+	opacity: 1;
+	width: 100%;
+	height: 5%;
+	bottom: 0px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: 5px;
+}
+
+#form-container {
+	position: fixed;
+	background-color: lightblue;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+
+#media-panel {
+	position: fixed;
+	width: 100%;
+	height: 15%;
+	background-color: orange;
+}
+
+#form-box {
+	position: fixed;
+	left: 30%;
+	top: 40%;
+	color: white;
+}
+
+#info-panel {
+	display: none;
+	padding: 5px;
+    text-align: center;
+    background: rgba(204, 204, 204, 0.5);
+    border: solid 1px #c3c3c3;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+#heart, #form-box{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+input[type=text] {
+    border: none;
+    background-color: white;
+    color: black;
+
+}
+
+form input[type=submit] {
+   	display: inline-block;
+}
+
+#btn {
+
+	text-align: center;
+}
+
+button {
+	background: transparent;
+	border: none;
+}
+
+
+#form-box label {
+  display: inline-block;
+  width: 250px;
+  text-align: right;
+  font-weight: 30px;
+  font-size: 20px;
+  color: darkblue;
+}​
+
+textarea { 
+    width: 400px; 
+    max-width: 400px; 
+    height: 150px; 
+    line-height: 150%; 
+} 
+
+input[type=text]:focus {
+    background-color: peachpuff;
+}
+
+.form label { 
+    margin-left: 10px; 
+    color: #999999; 
+}
